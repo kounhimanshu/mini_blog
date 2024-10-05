@@ -367,6 +367,8 @@ You can obtain the JWT token after logging in or registering a user.
 ### Note on Authentication
 
 For any **POST, PUT, or DELETE** request, you must include the JWT token in the headers as follows:
-
+```raw
+    Authorization: Bearer <your-jwt-token>
+ ```
 
 
